@@ -1,0 +1,56 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+nav {
+  font-family: ;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+nav ul li {
+  padding: 0px 12px;
+}
+.brand img {
+  width: 44px;
+  padding: o 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.container {
+  min-height: 75vh;
+}
+.bottom {
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  justify-items: end;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+#myprogressbar {
+  width: 100vw;
+  text-align: center;
+}
+.icons {
+  font-size: larger;
+}
